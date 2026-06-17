@@ -1,8 +1,8 @@
 // Ubah nama user
 let namaUser = prompt("Masukkan nama Anda:");
 if (namaUser) {
-    document.getElementById("namaUser").innerText = namaUser;
     <button id="gantiNamaBtn">Ganti Nama</button>
+    document.getElementById("namaUser").innerText = namaUser;
 }
 
 // ubah umur user
