@@ -2,8 +2,6 @@
 let namaUser = prompt("Masukkan nama Anda:");
 if (namaUser) {
     document.getElementById("namaUser").innerText = namaUser;
-}
-
 let umurUser = prompt("Masukkan umur Anda:");
 if (umurUser) {
     document.getElementById("umurUser").innerText = umurUser;
