@@ -8,6 +8,7 @@ if (namaUser) {
 // ubah umur user
 let umurUser = prompt("Masukkan umur Anda:");
 if (umurUser) {
+    <button id="gantiNamaBtn">Ganti umur</button>
     document.getElementById("umurUser").innerText = umurUser;
 }
 
