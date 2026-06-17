@@ -1,3 +1,5 @@
+alert("JS berjalan!");
+
 // ===== AMBIL NAMA =====
 let namaUser = prompt("Masukkan nama Anda:");
 if (namaUser) {
