@@ -26,6 +26,7 @@ document.getElementById("salamBtn").addEventListener("click", function() {
 
 // ===== TOMBOL GANTI NAMA =====
 document.getElementById("gantiNamaBtn").addEventListener("click", function() {
+    alert("Tombol diklik!"); // <- tambahin ini dulu
     let namaBaru = prompt("Masukkan nama baru:");
     if (namaBaru) {
         document.getElementById("namaUser").innerText = namaBaru;
