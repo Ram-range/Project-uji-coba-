@@ -10,6 +10,9 @@ if (umurUser) {
     document.getElementById("umurUser").innerText = umurUser;
 }
 
+// JS-nya pake id "gantiNamaBtn"
+document.getElementById("gantiNamaBtn")
+
 // Tombol sapa
 document.getElementById("salamBtn").addEventListener("click", function() {
     let nama = document.getElementById("namaUser").innerText;
